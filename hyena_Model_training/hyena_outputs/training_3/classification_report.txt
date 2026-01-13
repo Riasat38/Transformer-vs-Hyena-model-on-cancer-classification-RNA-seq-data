@@ -1,0 +1,48 @@
+HYENA MODEL - CLASSIFICATION REPORT
+============================================================
+
+                                     precision    recall  f1-score   support
+
+           Adrenocortical Carcinoma       1.00      0.94      0.97        16
+                     Bladder Cancer       0.82      0.93      0.87        85
+                      Breast Cancer       0.99      0.99      0.99       241
+                    Cervical Cancer       0.85      0.93      0.89        60
+                 Cholangiocarcinoma       1.00      0.44      0.62         9
+                  Colorectal Cancer       0.98      0.99      0.98       128
+                 Endometrial Cancer       0.97      0.96      0.97       122
+             Esophagogastric Cancer       0.99      1.00      1.00       128
+                       Glioblastoma       0.97      0.91      0.94        33
+                             Glioma       0.98      0.99      0.99       106
+               Head and Neck Cancer       0.96      0.96      0.96       112
+               Hepatobiliary Cancer       0.97      1.00      0.98        84
+                           Leukemia       1.00      1.00      1.00        35
+            Mature B-Cell Neoplasms       0.83      1.00      0.91        10
+                           Melanoma       1.00      0.97      0.98        89
+Miscellaneous Neuroepithelial Tumor       0.50      0.29      0.36         7
+   Non-Seminomatous Germ Cell Tumor       0.94      0.89      0.91        18
+         Non-Small Cell Lung Cancer       0.98      0.94      0.96       221
+                    Ocular Melanoma       0.94      1.00      0.97        16
+           Ovarian Epithelial Tumor       1.00      0.98      0.99        61
+                  Pancreatic Cancer       0.91      0.89      0.90        36
+                   Pheochromocytoma       0.85      0.94      0.89        31
+               Pleural Mesothelioma       1.00      0.94      0.97        17
+                    Prostate Cancer       0.99      0.99      0.99       109
+         Renal Clear Cell Carcinoma       0.94      0.96      0.95       116
+     Renal Non-Clear Cell Carcinoma       0.95      0.91      0.93        81
+                            Sarcoma       0.91      0.97      0.94        30
+                           Seminoma       0.93      1.00      0.96        13
+            Thymic Epithelial Tumor       1.00      0.96      0.98        24
+                     Thyroid Cancer       1.00      0.99      1.00       112
+
+                           accuracy                           0.96      2150
+                          macro avg       0.94      0.92      0.93      2150
+                       weighted avg       0.96      0.96      0.96      2150
+
+
+TEST SET PERFORMANCE
+============================================================
+Test Loss:      0.136305
+Test Accuracy:  0.9628
+Test Precision: 0.9638
+Test Recall:    0.9628
+Test F1-Score:  0.9623

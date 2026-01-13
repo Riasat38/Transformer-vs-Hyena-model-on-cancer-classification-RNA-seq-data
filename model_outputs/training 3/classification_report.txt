@@ -1,0 +1,39 @@
+CLASSIFICATION REPORT
+============================================================
+
+                                     precision    recall  f1-score   support
+
+           Adrenocortical Carcinoma       0.69      0.56      0.62        16
+                     Bladder Cancer       0.80      0.76      0.78        85
+                      Breast Cancer       0.99      0.93      0.96       241
+                    Cervical Cancer       0.74      0.77      0.75        60
+                 Cholangiocarcinoma       0.75      0.33      0.46         9
+                  Colorectal Cancer       0.99      0.98      0.98       128
+                 Endometrial Cancer       0.92      0.87      0.89       122
+             Esophagogastric Cancer       0.98      1.00      0.99       128
+                       Glioblastoma       0.93      0.85      0.89        33
+                             Glioma       0.98      0.99      0.99       106
+               Head and Neck Cancer       0.84      0.97      0.90       112
+               Hepatobiliary Cancer       0.93      0.99      0.96        84
+                           Leukemia       1.00      1.00      1.00        35
+            Mature B-Cell Neoplasms       0.77      1.00      0.87        10
+                           Melanoma       0.95      0.91      0.93        89
+Miscellaneous Neuroepithelial Tumor       0.00      0.00      0.00         7
+   Non-Seminomatous Germ Cell Tumor       1.00      0.67      0.80        18
+         Non-Small Cell Lung Cancer       0.84      0.91      0.87       221
+                    Ocular Melanoma       0.88      0.88      0.88        16
+           Ovarian Epithelial Tumor       1.00      0.95      0.97        61
+                  Pancreatic Cancer       0.83      0.69      0.76        36
+                   Pheochromocytoma       0.77      0.97      0.86        31
+               Pleural Mesothelioma       0.73      0.65      0.69        17
+                    Prostate Cancer       1.00      0.98      0.99       109
+         Renal Clear Cell Carcinoma       0.85      0.97      0.91       116
+     Renal Non-Clear Cell Carcinoma       0.94      0.80      0.87        81
+                            Sarcoma       0.68      0.90      0.77        30
+                           Seminoma       0.87      1.00      0.93        13
+            Thymic Epithelial Tumor       0.88      0.96      0.92        24
+                     Thyroid Cancer       1.00      0.96      0.98       112
+
+                           accuracy                           0.91      2150
+                          macro avg       0.85      0.84      0.84      2150
+                       weighted avg       0.91      0.91      0.91      2150
