@@ -18,11 +18,11 @@ sns.set_style("whitegrid")
 plt.rcParams['figure.figsize'] = (15, 10)
 
 # Configuration
-OUTPUT_DIR = 'model_outputs'  # Change to your output directory
-DATA_DIR = 'final_processed_data'  # Change to your data directory
-BATCH_SIZE = 32  # Add this line to define batch size
+OUTPUT_DIR = 'model_outputs'  
+DATA_DIR = 'final_processed_data' 
+BATCH_SIZE = 32  
 
-# Load class names from metadata
+
 with open('processed_data/metadata.json', 'r') as f:
     metadata = json.load(f)
     class_names = metadata['class_names']
@@ -37,9 +37,7 @@ with open(f'{OUTPUT_DIR}/training_history.json', 'r') as f:
 with open(f'{OUTPUT_DIR}/test_results.json', 'r') as f:
     test_results = json.load(f)
 
-# ===== GENERATE PREDICTIONS FOR CONFUSION MATRIX =====
-# You need to run this section with your model and test_loader
-# Uncomment and modify based on your setup:
+
 X_train = np.load(f'{DATA_DIR}/X_train_transformer.npy')
 X_test = np.load(f'{DATA_DIR}/X_test_transformer.npy')
 y_test = np.load(f'{DATA_DIR}/y_test.npy')
@@ -55,7 +53,7 @@ WEIGHT_DECAY = 1e-4
 PATIENCE = 10
 
 # Model parameters
-NUM_CLASSES = 30  # Will be auto-detected from data
+NUM_CLASSES = 30  
 NHEAD = 4
 NUM_LAYERS = 3
 D_MODEL = 192
@@ -297,4 +295,5 @@ if has_predictions:
     print(f"Std Precision: {np.std(precisions):.4f}")
     print(f"Std Recall: {np.std(recalls):.4f}")
     print(f"Std F1-Score: {np.std(f1_scores):.4f}")
+
     print("="*60)
